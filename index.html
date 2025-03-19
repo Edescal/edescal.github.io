@@ -16,20 +16,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <link rel="stylesheet" href="static/css/styles.css">
+
+    
 </head>
-<body class="">
-    <div class="container-fluid bg-black vh-100">
+<body>
+    <div class="container-fluid bg-black">
         <div class="row d-flex justify-content-center">
-            <div class="col-lg-6 p-3 col-sm-10">
+            <div class="col-lg-8 col-md-10 p-3 col-sm-12">
 
                 <div class="card p-2 border border-3 border-white bg-black">
                     <div class="card-header">
-
                         <div class="row h-100">
 
                             <div class="col-8 px-0">
-                                <div class="container-fluid bg-warning_">
-                                    
+                                <div class="container-fluid bg-warning_"> 
                                     <div class="row h-100">
                                         <div class="col-2 p-0 d-flex align-items-center">
                                             <div class="card quad border border-3 border-white bg-black d-flex justify-content-center align-items-center">
@@ -39,7 +39,9 @@
                                         
                                         <div class="col-10 px-0 d-flex align-items-center">
                                             <div class="card ps-4 bg-black">
-                                                <h5 class="text-white text-start fs-3 my-0">Edescal</h5>
+                                                <h5 class="text-white text-start fs-3 my-0">
+                                                    <a href="https://github.com/Edescal" class="text-white">Edescal</a>
+                                                </h5>
                                                 <p class="text-white text-start fs-5 my-0">Eduardo Escalante Pacheco</p>
                                             </div>
                                         </div>
@@ -48,14 +50,27 @@
                             </div>
                             
                             <div class="col-4 px-0">
-                                <div class="container-fluid bg-warning_">
-                                    
+                                <div class="container-fluid">   
                                     <div class="row h-100">
-                                        <div class="col-8 px-0 d-flex align-items-center"> 
+                                        <div class="col-8 px-0 d-flex align-items-baseline justify-content-end">
+                                            <div class="d-flex flex-column align-items-end">
+                                                <a class="mb-2 text-white text-decoration-none d-inline-flex align-items-center text-end" href="https://github.com/Edescal">
+                                                    <object type="image/svg+xml" data="static/img/logo-white-new.svg" width="70"></object>
+                                                    <small class="mx-2 mb-0"><b><u>Edescal</u></b></small>
+                                                </a>
+                                                <a class="mb-2 text-white text-decoration-none d-inline-flex align-items-center text-end" href="https://github.com/Edescal">
+                                                    <object type="image/svg+xml" data="static/img/logo-white-new.svg" width="70"></object>
+                                                    <small class="mx-2 mb-0"><b><u>Edescal</u></b></small>
+                                                </a>
+                                                <a class="text-white text-decoration-none d-inline-flex align-items-center text-end" href="https://github.com/Edescal">
+                                                    <object type="image/svg+xml" data="static/img/logo-white-new.svg" width="70"></object>
+                                                    <small class="mx-2 mb-0"><b><u>Edescal</u></b></small>
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div class="col-4 p-0 d-flex align-items-center">
+                                        <div class="col-4 p-0 d-flex align-items-center justify-content-end">
                                             <div class="card quad border border-3 border-white bg-black d-flex justify-content-center align-items-center">
-                                                <i class="bi bi-bounding-box text-white fs-1"></i>
+                                                <i id="box" class="bi bi-bounding-box text-white fs-1"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -63,11 +78,13 @@
                             </div>
 
                         </div>
-                            
                     </div>
                 </div>
+
             </div>
         </div>
+        <!--------------------------------------------------------------->
+
     </div>
 
     <script src="static/js/tweenings.js"></script>
